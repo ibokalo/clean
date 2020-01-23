@@ -4,7 +4,6 @@ jobs:
     docker:
       - image: odoo:latest
 workflows:
-  version: 2
   build:
     jobs:
       - build
